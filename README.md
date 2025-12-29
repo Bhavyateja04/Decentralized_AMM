@@ -192,14 +192,6 @@ No privileged admin functions (fully permissionless)
 
 Tokens are transferred using standard ERC-20 interfaces
 
-⚠️ This project is for educational purposes and has not been formally audited.
-It should not be used in production without further security reviews.
-
-Contract Addresses
-
-Not deployed to a public network.
-All testing and verification are performed locally using Hardhat.
-
 Final Notes
 
 This project demonstrates the core mechanics behind modern DeFi AMMs such as Uniswap V2, including liquidity provision, swaps, and fee distribution — all without centralized control.

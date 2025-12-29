@@ -35,3 +35,33 @@ Fully tested with Hardhat + Chai
 Dockerized environment for consistent evaluation
 
 Code coverage ≥ 80%
+
+Architecture
+
+The project consists of two main smart contracts:
+
+1. DEX.sol
+
+Core AMM contract
+
+Manages liquidity pools, swaps, and fees
+
+Tracks reserves (reserveA, reserveB)
+
+Maintains LP balances and total liquidity
+
+Emits events for all major actions
+
+2. MockERC20.sol
+
+Simple ERC-20 token used for testing
+
+Allows minting tokens for test scenarios
+
+Supporting Components
+
+Hardhat for compilation and testing
+
+Docker & Docker Compose for reproducible builds
+
+Solidity Coverage for test coverage analysis

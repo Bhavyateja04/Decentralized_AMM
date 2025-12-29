@@ -15,3 +15,23 @@ Swap between two ERC-20 tokens
 Earn trading fees as liquidity providers
 
 The system uses the constant product formula (x * y = k) to determine prices and execute trades in a fully decentralized manner.
+
+Features
+
+Initial and subsequent liquidity provision
+
+Liquidity removal with proportional share calculation
+
+Token swaps using the constant product AMM model
+
+0.3% trading fee distributed to liquidity providers
+
+LP token accounting using internal liquidity tracking
+
+Real-time price discovery based on pool reserves
+
+Fully tested with Hardhat + Chai
+
+Dockerized environment for consistent evaluation
+
+Code coverage ≥ 80%
